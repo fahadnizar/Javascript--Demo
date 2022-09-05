@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript-demo</title>
+  </head>
+  <body style="font-family:Arial,sans-serif;">
+    <h2>Validation</h2>
+    <form name="myForm" action="/action_page.php" onsubmit="return validateForm()" method="post"> Name: <input type="text" name="fname">
+      <input type="submit" value="Submit">
+      <input type="radio" name="size" value="S" id="s">
+      <label for="s">male</label>
+      <input type="radio" name="size" value="L" id="l">
+      <label for="l">Female</label>
+      <h2>JavaScript Alert</h2>
+      <button onclick="myFunction()">Alert Button</button>
+      <h2>JavaScript Timing Alert button</h2>
+      <button onclick="setTimeout(myFunct, 3000);">Try it</button>
+      <h2>Address:</h2>
+      <textarea id="myTextarea">
+Trivandrum , kerala </textarea>
+      <button type="button" onclick="myFunction()">Upload</button>
+      <p id="demo"></p>
+    </form>
+    <footer>
+      <script src="js/script.js"></script>
+    </footer>
+  </body>
+</html>
